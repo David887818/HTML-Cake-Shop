@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+$background:#edeff1;
+$white: #ffffff;
+$red:red;
+
+@font-face {
+  font-family:bold;
+  src: url(Bold.ttf);
+}
+.bold{
+  font-family: bold !important;
+}
+
+@font-face {
+  font-family:regular;
+  src: url(Regular.ttf);
+}
+
+.regular{
+  font-family: regular !important;
+}
+.header{
+  height: 10vh;
+  background-color: $background;
+}
+
+.headertxt{
+  width: 10vw;
+}
+
+.layer1{
+
+}
+.read{
+border-radius: 20px !important;
+}
+.txt1{
+  margin-top: 75vh;
+  color: $white;
+}
+.layertxt{
+  color: $white;
+}
+
+ul li:hover{
+  background-color: $red;
+}
+.ournews{
+
+  background-color: $background;
+}
+.newsletter h3{
+  color: $white;
+}
+.newsletter h6{
+  color: $white;
+}
+
+#input{
+  background-color: rgba(0, 0, 0, 0);
+  height: 50px;
+  border-radius: 20px;
+}
+#button1{
+  width: 40%;
+  height: 50px;
+  border-radius: 20px;
+}
+#rounded{
+  border-radius: 20px;
+}
+
+
+
